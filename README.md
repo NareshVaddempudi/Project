@@ -9,14 +9,12 @@ if (strcmp(word, Arr[i].keyWord) == 0) // Comparing keywords and updating word c
                 Arr[i].kw_Count++;
             }
 
-Have done the string tokenization as well using;  word = strtok(NULL, " ");
+Have done the string tokenization as well using;  wrd = strtok(NULL, " ");
 
 Give the words to be identified in the given text as below
    ./a.out or for and from to it was is <tale.txt
    
    The output will be as follows for the above words in the file tale.txt
-   
-Keyword                  Count
 or                      358
 for                     948
 and                     4931
